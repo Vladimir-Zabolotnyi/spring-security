@@ -1,0 +1,11 @@
+spring:
+  output.ansi.enabled: always
+  application.name: security
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  liquibase:
+    enabled: false
+server:
+  port: 8081
